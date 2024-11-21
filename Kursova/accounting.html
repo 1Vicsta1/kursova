@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Облік</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Облік засобів</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+<li><a href="gallery.html">Галерея</a></li>
+                <li><a href="about.html">Про нас</a></li>
+                <li><a href="accounting.html">Облік</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <table id="recordsTable">
+                <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>Найменування</th>
+                        <th>Дата обліку</th>
+                        <th>Дії</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <form id="recordForm">
+                <input type="text" id="itemName" placeholder="Найменування" required>
+                <input type="date" id="itemDate" required>
+                <button type="submit">Додати</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Контакти: example@gmail.com, +380 99 123 45 67</p>
+    </footer>
+</body>
+</html>
